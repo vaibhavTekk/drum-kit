@@ -40,11 +40,17 @@ body{
     height:15vh;
     width: 25vh;
     justify-self: center;
+    transition: all 0.1s ease-in;
 }
 
 .btn span{
     color: rgba(194, 76, 71,0.5)
 }
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
 .volwrapper{
     margin: 25px 25px;
     margin-bottom: none;
