@@ -25,3 +25,37 @@ volumeslider.addEventListener('input', e=> {
     volume = e.target.value;
     console.log(volume);
 });
+
+html.addEventListener('keydown' , e => {
+    const keypress = e.key.toUpperCase();
+    switch(keypress){
+        case 'A':
+            playsound('boom');
+            break
+        case 'S':
+            playsound('clap');
+            break
+        case 'D':
+            playsound('hihat');
+            break
+        case 'F':
+            playsound('kick');
+            break
+        case 'G':
+            playsound('openhat');
+            break
+        case 'H':
+            playsound('ride');
+            break
+        case 'J':
+            playsound('snare');
+            break
+        case 'K':
+            playsound('tink');
+            break
+        case 'L':
+            playsound('tom');
+            break
+    }
+
+});
