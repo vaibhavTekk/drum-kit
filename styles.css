@@ -78,3 +78,16 @@ dark accent C24C47 rgb(194, 76, 71)
 text : ffffff rgb(255, 255, 255)
 
 */
+
+@media screen and (max-width:600px) {
+    .drumkit{
+        width: 90%;
+        margin:0 0;
+    }
+    .btn{
+        font-size: 12px;
+        height: 10vh;
+        width: 10vh;
+    }
+    
+}
