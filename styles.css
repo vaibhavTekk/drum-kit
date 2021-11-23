@@ -1,13 +1,66 @@
+body{
+    background-color: tomato;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper h1{
+    justify-self: center;
+    align-self: center;
+    margin: 25px 25px;
+    font-size: 50px;
+}
 .drumkit{
-    margin: 0 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+    margin: 0px 100px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
 }
 
 .btn{
-    margin: 15px 15px;
-    height:50px;
-    width: 75px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: large;
+    color:tomato;
+    border: none;
+    margin:5px 0px;
+    border-radius: 5px;
+    background-color: rgb(255,255,255);
+    margin: none;
+    height:15vh;
+    width: 25vh;
     justify-self: center;
 }
+.volwrapper{
+    margin: 25px 25px;
+    margin-bottom: none;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+#volumeslider{
+    
+    max-width: 300px;
+}
+.volwrapper h3{
+    align-self: center;
+    justify-self: center;
+}
+
+footer{
+    text-align: center;
+}
+/*
+mainbg : rgb(217, 85, 80);
+wrapper : DD6662 rgb(221, 102, 98)
+dark accent C24C47 rgb(194, 76, 71)
+text : ffffff rgb(255, 255, 255)
+
+*/
