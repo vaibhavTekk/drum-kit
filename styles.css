@@ -1,0 +1,13 @@
+.drumkit{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.btn{
+    margin: 15px 15px;
+    height:50px;
+    width: 75px;
+    justify-self: center;
+}
